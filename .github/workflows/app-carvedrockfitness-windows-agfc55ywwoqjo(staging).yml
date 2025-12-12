@@ -49,8 +49,8 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v3
         with:
-          app-name: 'app-carvedrockfitness-windows-vcpor2lsd6f5e'
-          slot-name: 'Production'
+          app-name: 'app-carvedrockfitness-windows-agfc55ywwoqjo/staging'
+          slot-name: 'Staging'
           package: .
 
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DCA2E964B1C64646AEBACBA05EE14808 }}
